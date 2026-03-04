@@ -78,7 +78,8 @@ html {
 
 /* Selection styling */
 ::selection {
-  @apply bg-primary/30 text-foreground;
+  background-color: hsl(var(--primary) / 0.3);
+  color: hsl(var(--foreground));
 }
 
 /* Focus styles */
